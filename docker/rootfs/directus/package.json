@@ -1,0 +1,16 @@
+{
+  "name": "directus-project-libsql",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "directus start",
+    "bootstrap": "directus bootstrap",
+    "directus": "directus"
+  },
+  "dependencies": {
+    "@linefusion/directus-libsql": "^0",
+    "directus": "^10.12.1",
+    "libsql": ">=0.4.0-pre.0 < 0.5.0"
+  },
+  "packageManager": "pnpm@9.4.0"
+}

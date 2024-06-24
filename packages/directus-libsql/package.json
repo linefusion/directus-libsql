@@ -1,0 +1,50 @@
+{
+  "name": "@linefusion/directus-libsql",
+  "version": "0.0.10",
+  "main": "dist/index.js",
+  "description": "Experimental integration between Directus and libsql.",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "directus",
+    "directus-extension",
+    "libsql"
+  ],
+  "author": "João Biondo <joao@linefusion.io>",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "@directus/api": "*",
+    "@directus/env": "*",
+    "dotenv": "*",
+    "knex": "*",
+    "libsql": "*"
+  },
+  "peerDependenciesMeta": {
+    "@directus/api": {
+      "optional": false
+    },
+    "@directus/env": {
+      "optional": false
+    },
+    "dotenv": {
+      "optional": false
+    },
+    "libsql": {
+      "optional": false
+    },
+    "knex": {
+      "optional": false
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

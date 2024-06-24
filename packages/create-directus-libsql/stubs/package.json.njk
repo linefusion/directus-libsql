@@ -1,0 +1,15 @@
+{
+  "name": "directus-project-{{ name }}",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "CONFIG_PATH=./config.js directus start",
+    "bootstrap": "CONFIG_PATH=./config.js directus bootstrap",
+    "directus": "CONFIG_PATH=./config.js directus"
+  },
+  "dependencies": {
+    "@linefusion/directus-libsql": "^0",
+    "directus": "^10.12.1",
+    "libsql": ">=0.4.0-pre.0 < 0.5.0"
+  }
+}

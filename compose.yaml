@@ -1,0 +1,16 @@
+services:
+  directus:
+    image: linefusion/directus-libsql:latest
+    ports:
+      - 8055:8055
+    volumes:
+      - ./data/database:/directus/database
+    environment:
+      DB_FILENAME: "/directus/database/directus.sqlite"
+
+      # With Turso
+
+      # DB_SYNC: "true"
+      # DB_SYNC_URL: "libsql://<project>-<org>.turso.io"
+      # DB_SYNC_PERIOD: "30"
+      # DB_AUTH_TOKEN: ""

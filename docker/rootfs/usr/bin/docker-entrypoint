@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+directus bootstrap
+directus start

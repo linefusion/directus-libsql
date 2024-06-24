@@ -1,0 +1,14 @@
+{
+  "name": "@linefusion/workspace",
+  "version": "0.0.10",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "example:local": "pnpm --filter example-local directus",
+    "release": "tsx scripts/release.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.15.7",
+    "zx": "^8.1.3"
+  }
+}
